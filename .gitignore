@@ -1,0 +1,46 @@
+# Private configurations
+*.yaml
+*.json
+
+# Images (big size)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+
+# Ignore macOS system files
+.DS_store
+
+# Ignore pyCache
+__pycache__/
+
+# Ignore compressed folders
+*.zip
+*.tar
+*.rar
+
+# Ignore executables
+*.exe
+
+# Ignore VSCode
+*.vscode
+
+# Ignore logs
+*.log
+
+# Ignore subdirectories
+*/
+
+# Ignore all python files
+*.py
+
+# except the production file
+!verifier.py
+!main.py
+!poster.py
+!script.py
+!getter.py
+!controller.py
+!config.py
